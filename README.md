@@ -1,109 +1,102 @@
-Cafe Ordering System – Python Beginner Project
-Overview
+☕ Cafe Ordering System – Python Beginner Project 📌
+Project Overview
 
-This is a simple Python program that simulates a cafe ordering system. It allows users to:
+Cafe Ordering System is a simple Python project I built as part of my learning journey to understand the fundamentals of Python programming.
 
-View the menu of drinks or snacks.
+This project simulates a small cafe ordering system, allowing users to:
 
-Place multiple orders.
+View a menu of drinks or snacks.
 
-Calculate the total price dynamically.
+Place orders for multiple items.
 
-Display a final bill.
+Keep track of the running total.
 
-This project is designed for Python beginners to learn the basics of:
+See the final bill.
 
-Python functions
+The goal of this project is learning and practice, not complexity. While the project is basic, it demonstrates my understanding of beginner Python concepts and how to apply them in a small, working program.
 
-Loops and conditional statements
+🧠 What I Learned from This Project
 
-User input
+Through this project, I practiced and applied:
 
-Reading CSV files with pandas
+Variables and arithmetic operations
 
-Basic arithmetic operations
+Lists, loops, and conditional statements
 
-Features
-Menu Display
+Functions and function calls
 
-User can choose between drinks and snacks.
+User input handling and validation
 
-The program reads the menu from a CSV file (drinks.csv or snacks.csv) and displays it in a clean, numbered format.
+Reading CSV files using pandas
 
-Order Multiple Items
+Writing clean, readable, and well-structured code
 
-Users can order one or more items from the menu.
+⚙️ How the Program Works
 
-The menu is shown each time the user wants to order additional items.
+The user is greeted with a welcome message.
 
-Dynamic Total Calculation
+The user chooses whether they want drinks or snacks.
 
-Calculates and updates the total price as the user orders more items.
+The menu is displayed with item numbers and prices.
 
-Final Bill
+The user selects the items and quantities they want to order.
 
-Displays a summary of the orders and the total amount to pay.
+The program calculates the running total as orders are added.
 
-CSV File Format
+The user can continue ordering multiple items until they choose to stop.
 
-The menu is stored in CSV files (drinks.csv and snacks.csv)
+The final total bill is displayed.
 
+This project helped me practice breaking a problem into smaller functions and managing program flow logically.
 
-How to Run
+🛠️ Technologies Used
+
+Language: Python
+
+Libraries: pandas (for reading CSV files)
+
+Concepts: Functions, loops, conditionals, user input, file handling
+
+🚀 How to Run the Project
+
+Make sure Python is installed on your system.
 
 Install pandas if not already installed:
+
 pip install pandas
 
-Make sure the CSV files (drinks.csv and snacks.csv) are in the same folder as the Python script.
 
-Run the Python script:
+Clone or download this repository.
+
+Make sure drinks.csv and snacks.csv are in the same folder as the script.
+
+Open a terminal in the project folder.
+
+Run the program:
 
 python main.py
 
-Code Structure
 
-welcome_message()
+Follow the prompts to place your order and see your final bill.
 
-Displays a welcome message and the selected menu.
+🎯 Purpose of This Project
 
-Reads the menu from a CSV file.
+This project is meant to:
 
-order(menu)
+Showcase my Python skills as a beginner.
 
-Takes user orders in a loop.
+Demonstrate my ability to write functional and readable Python code.
 
-Updates the total price for multiple items.
+Show my willingness to learn by building hands-on projects.
 
-Prints a running total and final bill.
+I am actively learning Python and plan to improve this project with features like:
 
-main block
+Itemized receipt generation
 
-Runs the program by calling welcome_message() and order() functions.
+Removing or editing orders
 
-Learning Outcomes
+More categories like desserts and combos
 
-By completing this project, beginners will learn:
+👤 Author
 
-Reading and processing CSV files using pandas.
-
-Using loops and conditional statements to handle user input.
-
-Working with functions to organize code.
-
-Managing running totals and simple arithmetic in Python.
-
-Handling basic errors such as invalid menu selection.
-
-Future Improvements
-
-Add itemized receipt with all ordered items and quantities.
-
-Allow users to remove items or edit quantities.
-
-Save order history to a file.
-
-Add more categories like desserts or combos.
-
-Conclusion
-
-This simple project is perfect for beginners who want to practice Python basics in a fun and interactive way. It combines user input, data processing, and loops to create a small, real-world application.
+Bhuvan – Python Beginner | Aspiring Developer
